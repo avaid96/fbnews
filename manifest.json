@@ -1,0 +1,13 @@
+{
+		"manifest_version": 2,
+		    "name": "fbnews",
+			  "version": "0.1", 
+		"content_scripts": [
+				  {
+						      "matches": [
+									        "https://www.facebook.com/"
+											    ],
+												    "js": ["jquery-3.1.0.min.js", "content.js"]
+													  }
+		]
+}
